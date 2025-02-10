@@ -43,7 +43,7 @@ Maintenance <- Maintenance %>% filter(instrument %in% TheList)
 ```
 
 ```{r}
-The2024 <- Data |> dplyr::filter(year(DateTime) == 2024)
+The2018 <- Data |> dplyr::filter(year(DateTime) == 2018)
 ```
 
 ## {.sidebar}
@@ -63,7 +63,7 @@ For additional flow cytometry resources, visit our [website](https://sites.googl
 This dashboard was created with [Quarto](https://quarto.org/) and is maintained by [David Rach](https://github.com/DavidRach)
 
 ```{r}
-x <- The2024
+x <- The2018
 TheColumns <- x %>% select(where(~is.numeric(.)||is.integer(.))) %>% colnames()
 TheColumns <- setdiff(TheColumns, "TIME")
 
@@ -148,16 +148,16 @@ ScalingPlotsGain <- QC_Plots(x=x, FailedFlag=FALSE, MeasurementType=ScalingGains
 #| echo: false
 PDFPlots <- c(BluePlotsMFI, RedPlotsMFI, LaserPlotsMFI, ScatterPlotsMFI, BluePlotsGain, RedPlotsGain, ScatterPlotsGain, LaserPlotsGain, ScalingPlotsGain)
 
-Filename <- paste0("Historical_CantoII_2024")
+Filename <- paste0("Historical_CantoII_2018")
 
 MainFolder <- getwd()
 MainFolder <- file.path(MainFolder, "data")
 
 PDF <- Utility_Patchwork(x=PDFPlots, filename=Filename, returntype="pdf", outfolder=MainFolder, thecolumns=1)
 
-CSVname <- paste0("Historical_CantoII_2024.csv")
+CSVname <- paste0("Historical_CantoII_2018.csv")
 SaveHere <- file.path(MainFolder, CSVname)
-write.csv(The2024, SaveHere, row.names=FALSE)
+write.csv(The2018, SaveHere, row.names=FALSE)
 ```
 
 ## MFI {.tabset}
@@ -234,8 +234,3 @@ ggplotly(LaserPlotsGain[[2]])
 ggplotly(ScalingPlotsGain[[1]])
 ggplotly(ScalingPlotsGain[[2]])
 ```
-
-
-
-
-
