@@ -23,7 +23,7 @@ Dashboard contains historical data for the **BDFACS Canto II**.
 
 **Plots** A .pdf file containing non-interactive version of all the plots for the respective year.
 
-**Gain and MFI** A .csv file containing Gain and MFI information derrived from Daily QC .fcs files used to generate the plots.
+**Gain, RCV and MFI** A .csv file containing Gain, %RCV and MFI information derrived from Daily QC .fcs files used to generate the plots.
 
 For additional information, navigate to the [Help](https://umgccfcss.github.io/InstrumentQC/help) page.
 
@@ -53,7 +53,7 @@ HTML("
 <ul>
   <li><a href='Year2018.html'>Interactive</a></li>
   <li><a href='data/Historical_CantoII_2018.pdf'>Plots</a></li>
-  <li><a href='data/Historical_CantoII_2018.csv'>Gain and MFI</a></li>
+  <li><a href='data/Historical_CantoII_2018.csv'>Gain, RCV and MFI</a></li>
 </ul>
 ")
 ```
@@ -73,7 +73,7 @@ HTML("
 <ul>
   <li><a href='Year2020.html'>Interactive</a></li>
   <li><a href='data/Historical_CantoII_2020.pdf'>Plots</a></li>
-  <li><a href='data/Historical_CantoII_2020.csv'>Gain and MFI</a></li>
+  <li><a href='data/Historical_CantoII_2020.csv'>Gain, RCV and MFI</a></li>
 </ul>
 ")
 ```
@@ -93,7 +93,7 @@ HTML("
 <ul>
   <li><a href='Year2022.html'>Interactive</a></li>
   <li><a href='data/Historical_CantoII_2022.pdf'>Plots</a></li>
-  <li><a href='data/Historical_CantoII_2022.csv'>Gain and MFI</a></li>
+  <li><a href='data/Historical_CantoII_2022.csv'>Gain, RCV and MFI</a></li>
 </ul>
 ")
 ```
@@ -113,7 +113,7 @@ HTML("
 <ul>
   <li><a href='Year2024.html'>Interactive</a></li>
   <li><a href='data/Historical_CantoII_2024.pdf'>Plots</a></li>
-  <li><a href='data/Historical_CantoII_2024.csv'>Gain and MFI</a></li>
+  <li><a href='data/Historical_CantoII_2024.csv'>Gain, RCV and MFI</a></li>
 </ul>
 ")
 ```
@@ -131,7 +131,7 @@ HTML("
 <ul>
   <li><a href='Year2019.html'>Interactive</a></li>
   <li><a href='data/Historical_CantoII_2019.pdf'>Plots</a></li>
-  <li><a href='data/Historical_CantoII_2019.csv'>Gain and MFI</a></li>
+  <li><a href='data/Historical_CantoII_2019.csv'>Gain, RCV and MFI</a></li>
 </ul>
 ")
 ```
@@ -151,7 +151,7 @@ HTML("
 <ul>
   <li><a href='Year2021.html'>Interactive</a></li>
   <li><a href='data/Historical_CantoII_2021.pdf'>Plots</a></li>
-  <li><a href='data/Historical_CantoII_2021.csv'>Gain and MFI</a></li>
+  <li><a href='data/Historical_CantoII_2021.csv'>Gain, RCV and MFI</a></li>
 </ul>
 ")
 ```
@@ -171,7 +171,7 @@ HTML("
 <ul>
   <li><a href='Year2023.html'>Interactive</a></li>
   <li><a href='data/Historical_CantoII_2023.pdf'>Plots</a></li>
-  <li><a href='data/Historical_CantoII_2023.csv'>Gain and MFI</a></li>
+  <li><a href='data/Historical_CantoII_2023.csv'>Gain, RCV and MFI</a></li>
 </ul>
 ")
 ```
@@ -192,7 +192,7 @@ HTML("
 <ul>
   <li><a href='https://umgccfcss.github.io/InstrumentQC/CantoII'>Interactive</a></li>
   <li><a href='https://umgccfcss.github.io/InstrumentQC/data/QCPlots_Canto.pdf'>Plots</a></li>
-  <li><a href='https://umgccfcss.github.io/InstrumentQC/data/Canto/Archive/HolisticDataCanto.csv'>Gain and MFI</a></li>
+  <li><a href='https://umgccfcss.github.io/InstrumentQC/data/Canto/Archive/HolisticDataCanto.csv'>Gain, RCV and MFI</a></li>
 </ul>
 ")
 ```
